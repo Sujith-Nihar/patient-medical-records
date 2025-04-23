@@ -10,7 +10,6 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base:"/patient-medical-records",
   server: {
     host: true
   },
